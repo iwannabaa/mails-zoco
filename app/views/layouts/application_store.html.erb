@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Mails</title>
+	</head>
+	<body style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;">
+		<table style="width:100%!important;padding:0;background:#5A78B1;margin:0;background-color:#5A78B1" border="0" cellpadding="8" cellspacing="0"> <%# WRAPPER TABLE %>
+			<tr>
+				<td valign="top">
+					<table align="center" cellspacing="0" cellpadding="0" border="0" style="border-radius:4px;border:1px #fff solid"> <%# WRAPPER CONTENT TABLE %>
+						<tr>
+							<td height="10"></td>
+						</tr>
+						<tr>
+							<td align="center" style="color:#fff;font-size:13px;font-family:proxima_nova,'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif';">
+								September 3, 2014 11:02:23
+							</td>
+						</tr>
+						<tr>
+							<td height="20"></td>
+						</tr>
+						<tr>
+							<td align="center">
+								<%= image_tag("http://carlosjovel.com/images/logo-zocostore.png", size: "80x80") %> <%# BRANDING %>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<table align="center" cellspacing="0" cellpadding="0" border="0" style="line-height:25px;"> <%# MAIN CONTENT TABLE %>
+									<tr>
+										<td height="30" colspan="3"></td>
+									</tr>
+									<tr>
+										<td width="30"></td>
+										<td width="450" valign="top" style="max-width:450px;border-collapse:collapse;font-size:11pt;color:#fff;font-family:proxima_nova,'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif';">
+
+											<%= yield %>
+											
+										</td>
+										<td width="30"></td>
+									</tr>
+									<tr>
+										<td height="30" colspan="3"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<table cellpadding="0" cellspacing="0" align="center" border="0"> <%# FOOTER TABLE %>
+						<tr>
+							<td height="10"></td>
+						</tr>
+						<tr>
+							<td align="center">
+								<%= image_tag("http://carlosjovel.com/images/app-store.jpg", size: "100x30") %>
+							</td>
+						</tr>
+						<tr style="color:#fff;font-size:11px;font-family:proxima_nova,'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif'">
+							<td>&copy; 2014 <a href="#" target="_blank" style="color:#fff;">zocoshop.com</a>. All rights reserved.</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
