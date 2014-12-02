@@ -24,7 +24,7 @@ class MailsController < ApplicationController
 		
 	end
 	def purchase_store
-		
+		render :layout => "application_store"
 	end
 	def ready
 		
