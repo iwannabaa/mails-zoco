@@ -35,4 +35,7 @@ class MailsController < ApplicationController
 	def password_recovery_store
 		render :layout => "application_store"
 	end
+	def change_username
+		
+	end
 end

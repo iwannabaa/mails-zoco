@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   get 'ready' => 'mails#ready'
   get 'password_user' => 'mails#password_recovery_user'
   get 'password_store' => 'mails#password_recovery_store'
+  get 'change_username' => 'mails#change_username'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
